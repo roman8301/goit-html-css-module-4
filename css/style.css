@@ -143,6 +143,8 @@ html {
 
 .product-list__item__title {
   padding-left: 14px;
+  display: inline-block;
+  margin: 0;
 }
 
 .product-list__item__price {
@@ -193,7 +195,7 @@ html {
   margin-bottom: 22px;
 }
 
-news-list__item__text {
+.news-list__item__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
