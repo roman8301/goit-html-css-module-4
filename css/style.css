@@ -142,14 +142,16 @@ html {
 }
 
 .product-list__item__title {
+  width: 201px;
   padding-left: 14px;
-  display: inline-block;
+  font-size: 18px;
+  float: left;
   margin: 0;
 }
 
 .product-list__item__price {
   width: 54px;
-  float: right;
+  float: left;
   background-color: rgba(255, 255, 255, 0.44);
   text-align: center;
 }
