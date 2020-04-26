@@ -130,26 +130,32 @@ html {
 }
 
 .product-list__item__wrapper {
-  display: block;
+  background-color: #323232;
+  text-transform: uppercase;
+}
+
+.product-list__item__link {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
-  font-size: 18px;
   line-height: 32px;
-  background-color: #323232;
   color: #ffffff;
-  text-transform: uppercase;
   text-decoration: none;
 }
 
 .product-list__item__title {
+  float: left;
   width: 201px;
   padding-left: 14px;
   font-size: 18px;
-  float: left;
   margin: 0;
 }
 
 .product-list__item__price {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
   width: 54px;
   float: left;
   background-color: rgba(255, 255, 255, 0.44);
